@@ -14,6 +14,7 @@ void CalculatorApp()
         Console.WriteLine("Enter the operation (+, -, *, /):");
         var operation = Convert.ToChar(Console.ReadLine());
         int result = 0;
+
         switch (operation)
         {
             case '+':
